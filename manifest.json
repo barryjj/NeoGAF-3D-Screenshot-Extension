@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "NeoGAF inline 3D screenshots",
+    "description": "Embeds 3D screenshots when viewing NeoGAF",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*neogaf*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
