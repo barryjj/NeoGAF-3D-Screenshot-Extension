@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*neogaf*/*"
+                "*://*.neogaf.com/*"
             ],
             "js": [
                 "content.js"
