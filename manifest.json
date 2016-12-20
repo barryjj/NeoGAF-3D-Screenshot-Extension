@@ -1,8 +1,8 @@
 {
 "manifest_version": 2,
-    "name": "NeoGAF inline 3D screenshots",
-    "description": "Embeds 3D screenshots when viewing NeoGAF",
-    "version": "0.1",
+    "name": "NeoGAF Embedded kuula.co 3D screenshots",
+    "description": "Embeds 3D screenshots hosted on kuula.co when viewing NeoGAF",
+    "version": "1.0",
     "content_scripts": [
         {
             "matches": [
