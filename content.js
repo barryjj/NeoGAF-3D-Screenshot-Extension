@@ -35,8 +35,13 @@ function embed3dScreenshots(){
             screenshot.frameborder="0";
             screenshot.scrolling="no";
             
-            //<iframe width="640px" height="400px" src="https://kuula.co/share/7fBQk" allowfullscreen="true" frameborder="0" scrolling="no"></iframe>
+            links[i].parentNode.replaceChild(screenshot, links[i]);
+        }
     }
 }
+
+//call the function
+embed3dScreenshots();
+
 //In doing some research, this might help the extension to work with the LiveThreadUpdate plugin
 //document.addEventListener('LiveThreadUpdate', embed3dScreenshots);
